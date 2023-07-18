@@ -1,0 +1,27 @@
+----------------------Guide for installing a local xammp server--------------------------
+1. Download the program from the official website: https://www.apachefriends.org/download .html
+2. Making the file executable: chmod u+x~/Downloads/xampp-linux-x64-7.3.3-1- installer.run
+3. Run the file: sudo~/Downloads/xampp-linux-x64-7.3.3-1- installer.run
+4. The program is installed
+
+---------------------Management----------------------------------------------------------
+* The xampp utility is used for management: /opt/lampp/xampp
+Here are its main options:
+start - start all servers;
+startapache - start apache only;
+startmysql - run mysql only;
+startftp - start ftp only;
+stop - stop everything;
+stopapache - stop apache only;
+stopmysql - stop mysql only;
+stopftp - stop ftp only;
+reload, reloadapache, reloadmysql, reloadftp - similarly, only reloading all these services;
+restart - stop and start XAMPP;
+security - check XAMPP security settings;
+enablessl - enable SSL in Apache;
+disablessl - disable SSL in Apache;
+panel - open the graphical settings panel that we worked with in the first paragraph.
+
+Run the graphical panel: sudo /opt/lampp/manager-linux-x64.run
+
+Deployment: All web server files are located in the /opt/lampp/htdocs/ directory.
